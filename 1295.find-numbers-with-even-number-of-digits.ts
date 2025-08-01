@@ -5,6 +5,10 @@
  * [1295] 统计位数为偶数的数字
  */
 
+
+// @lcpr-template-start
+
+// @lcpr-template-end
 // @lc code=start
 function findNumbers(nums: number[]): number {
   return nums.filter((num) => num.toString().length % 2 === 0).length

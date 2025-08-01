@@ -5,13 +5,12 @@
  * [1920] 基于排列构建数组
  */
 
+
+// @lcpr-template-start
+
+// @lcpr-template-end
 // @lc code=start
-function buildArray(nums: number[]): number[] {
-  return nums.reduce((result: number[], item, i) => {
-    result[i] = nums[item]
-    return result
-  }, [])
-}
+const buildArray = (nums: number[]): number[] => nums.map((n) => nums[n])
 // @lc code=end
 
 /*
